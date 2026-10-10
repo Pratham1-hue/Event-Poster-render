@@ -14,11 +14,10 @@ services:
       - key: CORS_ORIGINS
         value: "*"
 
-  # React frontend (Vite static)
+  # React frontend (Vite static — static sites have no plan field)
   - type: web
     name: poster-lab-web
     env: static
-    plan: free
     rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
