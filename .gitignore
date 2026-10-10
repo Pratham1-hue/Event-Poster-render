@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+frontend/dist/
+_t_*.png
+output_azkaban.png
+output_wildwest.png
+output_digital_prison.png
+# NOTE: output.png and Screenshot*.png are tracked — they are attached in README.md
